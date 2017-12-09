@@ -126,9 +126,9 @@ var startDate = document.getElementById('startDate');
                                         boardName: boardName.name
                                     };
                                     
-//                                    $.post("https://trello-api.crewlogix.com/commentOnCard", {id: cardId.id,estimatedTime:estimatedTime.value,boardName: boardName.name, member: member.username,startDate:startDate.value ,text: text, assignedTo: assignedTo, assignedToMemberId: assignedToMemberId,rData: JSON.stringify(rData)}
+                                    //$.post("https://trello-api.crewlogix.com/commentOnCard", {id: cardId.id,estimatedTime:estimatedTime.value,boardName: boardName.name, member: member.username,startDate:startDate.value ,text: text, assignedTo: assignedTo, assignedToMemberId: assignedToMemberId,rData: JSON.stringify(rData)}
 //                                    ,function(res){
-                             //           $.post("https://script.google.com/a/origamistudios.us/macros/s/AKfycbxoYQfMrzAmRKJMaNEImAtJvWX1gpyiYdFFMR9yTZ-50JgwWec/exec", {id: cardId.id,estimatedTime:estimatedTime.value,boardName: boardName.name, member: member.username,startDate:startDate.value ,text: text, assignedTo: assignedTo, assignedToMemberId: assignedToMemberId,rData: JSON.stringify(rData)},function(re){t.closePopup();});
+                                        $.post("https://script.google.com/macros/s/AKfycbwpuo3zTx9O43bi_w6gJOUcS6543CZfXtjYic0jp-pa/dev", {id: cardId.id,estimatedTime:estimatedTime.value,boardName: boardName.name, member: member.username,startDate:startDate.value ,text: text, assignedTo: assignedTo, assignedToMemberId: assignedToMemberId,rData: JSON.stringify(rData)},function(re){t.closePopup();});
 //                                             ,function(res){
 //                                                 t.closePopup();    
 //                                                 })
